@@ -2,5 +2,6 @@
  (name legacy_diffable)
  (public_name legacy_diffable)
  (libraries core streamable stored_reversed)
+ (flags (:standard -w -67))
  (preprocess
   (pps ppx_jane)))
